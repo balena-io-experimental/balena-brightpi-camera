@@ -1,0 +1,50 @@
+{
+  "name": "resin-brightpi-camera",
+  "version": "0.0.1",
+  "description": "A night-vision enabled camera that records videos on demand and lets you watch them remotely",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resin-io-playground/resin-brightpi-camera.git"
+  },
+  "keywords": [
+    "resin",
+    "io",
+    "docker",
+    "rpi",
+    "raspberry",
+    "pi",
+    "raspberrypi",
+    "bright",
+    "pi",
+    "brightpi",
+    "infrared",
+    "camera",
+    "vision",
+    "night"
+  ],
+  "author": "Carlo Maria Curinga <carlo@resin.io>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/resin-io-playground/resin-brightpi-camera/issues"
+  },
+  "homepage": "https://github.com/resin-io-playground/resin-brightpi-camera#readme",
+  "jshintConfig": {
+    "esversion": 6,
+    "strict": true
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chalk": "^2.3.0",
+    "compression": "^1.7.1",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "handbrake-js": "^2.2.2",
+    "i2c": "^0.2.3",
+    "nocache": "^2.0.0",
+    "pi-camera": "^1.0.1"
+  }
+}
