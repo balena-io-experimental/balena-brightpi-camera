@@ -9,12 +9,13 @@
   const bodyParser = require("body-parser");
   const nocache = require('nocache');
   const app = express();
+  const duration = process.env.VIDEO_DURATION || '20000';
   const camera = new PiCamera({
     mode: 'video',
     output: `/data/video.h264`,
     width: 800,
     height: 600,
-    timeout: 15000, // Record for 5 seconds
+    timeout: duration,
     nopreview: true,
     rotation: 90
   });
