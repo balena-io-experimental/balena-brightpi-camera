@@ -1,2 +1,2 @@
 # resin-brightpi-camera
-A night-vision enabled camera that records videos on demand and lets you watch them remotely
+A night-vision enabled camera that records videos watch them remotely with control over both white and IR LEDs
